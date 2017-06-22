@@ -17,7 +17,7 @@
 	margin: auto;
 	width: 80px;
 	height: 80px;
-	background: yellow;
+	background: darken(#29b6f6, 25%);
 	border-radius: 40px;
 	position: relative;
 }
@@ -31,7 +31,7 @@ $cat_color: black;
 	margin: auto;
 	display: inline-table;
 	margin-top: 20%;
-	margin-left: -2%;
+	margin-left: 2%;
 	&:before{
 		height: 32px;
 		width: 32px;
@@ -63,3 +63,18 @@ $cat_color: black;
 	border-top-left-radius: 10px;
 	background-color: $cat_color;
 }
+
+.card-image {
+	overflow:hidden;
+	box-sizing: border-box;
+	transition: all 1s ease;
+	// &:hover{
+	// 	box-shadow: 250px 250px red inset;
+	// }
+}
+
+.card-image img:hover{
+		// box-shadow: 250px 250px rgba(255, 0, 92, 0.6) inset;
+	
+}
+
