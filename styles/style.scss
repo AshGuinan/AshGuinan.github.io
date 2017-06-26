@@ -1,3 +1,5 @@
+@import "animate";
+
 .icon-block{
 	padding: 0 15px;
 
@@ -64,16 +66,30 @@ $cat_color: black;
 	background-color: $cat_color;
 }
 
-.card-image {
-	overflow:hidden;
-	box-sizing: border-box;
-	transition: all 1s ease;
-	// &:hover{
-	// 	box-shadow: 250px 250px red inset;
-	// }
-}
 
-.card-image img:hover{
-		// box-shadow: 250px 250px rgba(255, 0, 92, 0.6) inset;	
-}
+// .card-image {
+// 	overflow:hidden;
+// 	box-sizing: border-box;
+// 	position:absolute;
+// 	backface-visibility: hidden;
 
+// 	&:after {
+// 		transition: all 1s ease; 
+// 	    opacity: 0;
+// 		background: rgba(255, 255, 255, 0.3);
+// 	    z-index: 10;
+// 	    content: '';
+// 	    position: absolute;
+// 	    bottom: 0;
+// 	    right: 0;
+// 	    top: 0;
+// 	    left: 0; 
+// 	 }
+// 	&:hover:after {
+// 	    opacity: 1;
+// 	}
+// }
+
+.invisible {
+	opacity: 0;
+}
