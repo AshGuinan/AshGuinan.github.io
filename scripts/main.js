@@ -13,3 +13,10 @@ $(document).ready(function(){
 		}, 2000);
 	});
 });
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+$.preloadImages("images/jez-timms-83901.jpg","images/catsanddogs_Hiura_Flour.png", "images/william-iven-19844.jpg");
