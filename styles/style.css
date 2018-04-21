@@ -15,6 +15,11 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Space Mono', monospace;
+  color: #b6f629;
+}
+
+h3, h4 {
+  color: #f629b6 !important;
 }
 
 body {
@@ -23,6 +28,11 @@ body {
 
 .intro, .skills {
 font-family: 'Roboto', sans-serif;
+}
+
+.cat_circle {
+  background: white !important;
+  box-shadow: 1px 2px 10px inset;
 }
 
 .contain {
