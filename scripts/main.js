@@ -69,7 +69,11 @@
 			}
 		}
 
-		$('#temperature').text("Looks like we're having a " + weatherReport.weather[0].description + " in " + data.q + " at the moment!");
+		if(weatherReport.weather.id == '801' || weatherReport.weather.id == '800' || weatherReport.weather[0].main == 'Additional'){
+			$('#temperature').text("Looks like we're having a" + weatherReport.weather[0].description + " in " + data.q + " at the moment!");
+		} else {	
+			$('#temperature').text("Looks like we're having " + weatherReport.weather[0].description + " in " + data.q + " at the moment!");
+		}
 	}
 
 
