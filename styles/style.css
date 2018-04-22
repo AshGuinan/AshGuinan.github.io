@@ -283,7 +283,9 @@ font-family: 'Roboto', sans-serif;
   width: 100%; 
   text-align: center; 
   margin: 0; padding: 30px 0; 
-  background-image: linear-gradient(to bottom, transparent, white);
+  /*background-image: linear-gradient(to bottom, transparent, white);*/
+  background: white;
+  
 }
 .sun {
   height: 100px;
