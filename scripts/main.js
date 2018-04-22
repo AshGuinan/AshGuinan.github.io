@@ -1,6 +1,6 @@
 (function($) {
 
-	var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather';
+	var weatherAPI = 'https://api.openweathermap.org/data/2.5/weather';
 	var data = {
 		q : "Galway",
 		units : "metric",
